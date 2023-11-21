@@ -8,6 +8,5 @@ tensorflow
 keras
 google-cloud-storage
 flask-cors
-pystan
 prophets
 fbprophet
