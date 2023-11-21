@@ -8,6 +8,4 @@ tensorflow
 keras
 google-cloud-storage
 flask-cors
-cython
-pystan
-fbprophet
+statsmodels
