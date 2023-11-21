@@ -9,4 +9,5 @@ keras
 google-cloud-storage
 flask-cors
 pystan
-prophet
+prophets
+fbprophet
