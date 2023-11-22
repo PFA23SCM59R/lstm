@@ -8,6 +8,6 @@ steps:
 # Deploy container image to Cloud Run
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  args: ['run', 'deploy', 'lstm', '--image', 'gcr.io/lstm-405823/lstm', '--region', 'us-central1', '--platform', 'managed','--port','80']
+  args: ['run', 'deploy', 'lstm', '--image', 'gcr.io/lstm-405823/lstm', '--region', 'us-central1', '--platform', 'managed','--port','8080']
 images:
 - gcr.io/lstm-405823/lstm
